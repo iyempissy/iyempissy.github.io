@@ -70,7 +70,6 @@ sections:
           date_start: '2020-03-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
               * Differential Privacy and application on graph neural networks
               * Privacy and application of AI in healthcare
               * Attacks and Defenses against machine learning models
@@ -82,7 +81,6 @@ sections:
           date_start: '2016-05-01'
           date_end: '2017-07-01'
           description: |2-
-              Responsibilities include:
               * Design of an efficient location-aware algorithm for indoor tracking
               * Development of Restful APIs and ad-hoc programming as required
               * Design of privacy-preserving algorithm for indoor location tracking
@@ -95,7 +93,6 @@ sections:
           date_start: '2015-11-01'
           date_end: '2016-05-01'
           description: |2-
-              Responsibilities include:
               * Developed Oblivious RAM (ORAM) algorithm, Homomorphic encryption scheme, and implementation of secure multiparty computation for secure information retrieval
               * Data collection, analysis, and simulation
               * Diagnosed and solved problems related to the research project
@@ -119,9 +116,9 @@ sections:
           date_start: '2012-11-01'
           date_end: '2013-10-01'
           description: |2-
-                * PTaught Computer studies to different cadres of people and at seminars
-                * Ensured a high level of discipline amongst corps members
-                * Held talk shows in schools enlightening students on the pervasiveness of computing
+              * Taught Computer studies to different cadres of people and at seminars
+              * Ensured a high level of discipline amongst corps members
+              * Held talk shows in schools enlightening students on the pervasiveness of computing
     design:
       columns: '2'
   - block: accomplishments
@@ -146,24 +143,33 @@ sections:
           organization_url: ''
           title: Postgraduate Studentship Scholarship
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_start: '2015-03-01'
+          description: (2 out of 200)
+          icon: ''
+          organization: Hong Kong Baptist University
+          organization_url: ''
+          title: High Distinction Scholarship,
           url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2014-11-01'
+          description: (6 out 200)
+          icon: ''
+          organization: Hong Kong Baptist University
+          organization_url: ''
+          title: Distinction Scholarship
+          url: ''
+        - certificate_url: ''
+        date_end: ''
+        date_start: '2013-11-01'
+        description: 1 out of 1000
+        icon: ''
+        organization: National Award, Nigeria
+        organization_url: ''
+        title: Corps Liaison Officer
+        url: ''
     design:
       columns: '2'
   - block: collection
