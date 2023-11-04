@@ -107,7 +107,6 @@ sections:
           date_start: '2013-12-01'
           date_end: '2014-08-01'
           description: |2-
-              Responsibilities include:
               * Controlled organization's resources and expenditures
               * Improved quality of service, and I ensured the smooth running of the organization
               * Protected the interest of workers and acted as an intermediary between collaborating agencies
@@ -120,8 +119,7 @@ sections:
           date_start: '2012-11-01'
           date_end: '2013-10-01'
           description: |2-
-              Responsibilities include:
-                * Taught Computer studies to different cadres of people and at seminars
+                * PTaught Computer studies to different cadres of people and at seminars
                 * Ensured a high level of discipline amongst corps members
                 * Held talk shows in schools enlightening students on the pervasiveness of computing
     design:
