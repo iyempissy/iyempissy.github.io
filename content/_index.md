@@ -62,33 +62,74 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Research Scientist
+          company: L3S Research Center
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: org-x
+          location: Germany
+          date_start: '2020-03-01'
           date_end: ''
           description: |2-
               Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Differential Privacy and application on graph neural networks
+              * Privacy and application of AI in healthcare
+              * Attacks and Defenses against machine learning models
+        - title: Research Associate
+          company: Hong Kong Baptist University
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Hong Kong
+          date_start: '2016-05-01'
+          date_end: '2017-07-01'
+          description: |2-
+              Responsibilities include:
+              * Design of an efficient location-aware algorithm for indoor tracking
+              * Development of Restful APIs and ad-hoc programming as required
+              * Design of privacy-preserving algorithm for indoor location tracking
+              * Development of indoor location estimation algorithms using Wi-Fi technology
+        - title: Research Associate
+          company: Hong Kong Polytechnic University
+          company_url: ''
+          company_logo: org-x
+          location: Hong Kong
+          date_start: '2015-11-01'
+          date_end: '2016-05-01'
+          description: |2-
+              Responsibilities include:
+              * Developed Oblivious RAM (ORAM) algorithm, Homomorphic encryption scheme, and implementation of secure multiparty computation for secure information retrieval
+              * Data collection, analysis, and simulation
+              * Diagnosed and solved problems related to the research project
+        - title: Branch Operations Manager
+          company: Lorion-Eyiyemi Ventures Limited
+          company_url: ''
+          company_logo: org-x
+          location: Nigeria
+          date_start: '2013-12-01'
+          date_end: '2014-08-01'
+          description: |2-
+              Responsibilities include:
+              * Controlled organization's resources and expenditures
+              * Improved quality of service, and I ensured the smooth running of the organization
+              * Protected the interest of workers and acted as an intermediary between collaborating agencies
+              * Increased revenue by 40% in 3 months by introducing business intelligence.
+        - title: Volunteer as Computer Instructor
+          company: National Youth Service Corps
+          company_url: ''
+          company_logo: org-x
+          location: Nigeria
+          date_start: '2012-11-01'
+          date_end: '2013-10-01'
+          description: |2-
+              Responsibilities include:
+                * Taught Computer studies to different cadres of people and at seminars
+                * Ensured a high level of discipline amongst corps members
+                * Held talk shows in schools enlightening students on the pervasiveness of computing
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: Scholarships and Awards #'Accomplish&shy;ments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -98,14 +139,14 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: ''
+          date_end: '2019-12-01'
+          date_start: '2017-08-01'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: ''
+          organization: Chinese University of Hong Kong
+          organization_url: ''
+          title: Postgraduate Studentship Scholarship
           url: ''
         - certificate_url: https://www.edx.org
           date_end: ''

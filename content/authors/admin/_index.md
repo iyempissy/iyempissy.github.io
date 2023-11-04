@@ -1,6 +1,6 @@
 ---
 # Display name
-title: O.I Emmanuel
+title: Olatunji Iyiola Emmanuel
 
 # Name pronunciation (optional)
 name_pronunciation: '' #Chien Shiung Wu
@@ -71,12 +71,12 @@ skills:
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 80
+        percent: 90
         icon: database
         icon_pack: fas
       - name: PHP
         description: ''
-        percent: 80
+        percent: 90
         icon: php
         icon_pack: fab
       - name: HTML5
@@ -86,12 +86,12 @@ skills:
         icon_pack: fab
       - name: Javascript / JQuery
         description: ''
-        percent: 80
+        percent: 90
         icon: code
         icon_pack: fas
       - name: CSS3
         description: ''
-        percent: 80
+        percent: 90
         icon: css3
         icon_pack: fab
   - name: Hobbies
