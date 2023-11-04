@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: O.I Emmanuel
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: '' #Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Iyiola Emmanuel
+last_name: Olatunji
 
 # Status emoji
 status:
@@ -17,34 +17,37 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Doctoral Researcher (Privacy Preserving Machine learning)
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Leibniz University Hannover
+    url: https://www.uni-hannover.de/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Emmanuel's interest is in the privacy of ML models, interpretability and fairness
 
 # Interests to show in About widget
 interests:
+  - Security and Privacy
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Explainability
+  - Health Informatics
+  - Graph Neural Networks
+  - Social Media Mining
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Science, Feb. 2024
+      institution: Leibniz University (LUH)
+      year: 2024
+    - course: MPhil in Systems Engineering and Engineering Management
+      institution: Chinese University of Hong Kong (CUHK)
+      year: 2020
+    - course: MSc in Advanced Information Systems
+      institution: Hong Kong Baptist University (HKBU)
+      year: 2015
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -53,9 +56,14 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: python
         icon_pack: fab
+      - name: Pytorch / PytorchGeometric
+        description: ''
+        percent: 100
+        icon: gears
+        icon_pack: fas
       - name: Data Science
         description: ''
         percent: 100
@@ -63,26 +71,46 @@ skills:
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        percent: 80
         icon: database
         icon_pack: fas
+      - name: PHP
+        description: ''
+        percent: 80
+        icon: php
+        icon_pack: fab
+      - name: HTML5
+        description: ''
+        percent: 100
+        icon: html5
+        icon_pack: fab
+      - name: Javascript / JQuery
+        description: ''
+        percent: 80
+        icon: code
+        icon_pack: fas
+      - name: CSS3
+        description: ''
+        percent: 80
+        icon: css3
+        icon_pack: fab
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
+      - name: Meeting People
         description: ''
         percent: 100
-        icon: cat
+        icon: people-group
+        icon_pack: fas
+      - name: Football
+        description: ''
+        percent: 100
+        icon: futbol
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 100
         icon: camera-retro
         icon_pack: fas
 
@@ -93,32 +121,34 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 'mailto:iyiola@l3s.de'
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/iyempissy
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=nPIxx4UAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/iyempissy
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://hk.linkedin.com/in/olatunjiiyem
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/Emmanuel-resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Emmanuel is a doctoral candiate in his final year at L3S Research Center, Leibniz university Hannover under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/). He is deeply passionate about the privacy of machine learning models, with a specialization in graph neural networks. His research focuses on safeguarding user privacy while harnessing the potential of machine learning algorithms. Emmanuel excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques. 
+
+His overarching mission - to foster a more secure, responsible and ethical AI. In his free time, he provides privacy consultancy services.
 {style="text-align: justify;"}
