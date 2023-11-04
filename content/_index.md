@@ -146,16 +146,16 @@ sections:
         - certificate_url: ''
           date_end: ''
           date_start: '2015-03-01'
-          description: (2 out of 200)
+          description: '(2 out of 200)'
           icon: ''
           organization: Hong Kong Baptist University
           organization_url: ''
-          title: High Distinction Scholarship,
+          title: High Distinction Scholarship
           url: ''
         - certificate_url: ''
           date_end: ''
           date_start: '2014-11-01'
-          description: (6 out 200)
+          description: '(6 out of 200)'
           icon: ''
           organization: Hong Kong Baptist University
           organization_url: ''
@@ -164,7 +164,7 @@ sections:
         - certificate_url: ''
         date_end: ''
         date_start: '2013-11-01'
-        description: 1 out of 1000
+        description: '(1 out of 1000)'
         icon: ''
         organization: National Award, Nigeria
         organization_url: ''
