@@ -162,14 +162,14 @@ sections:
           title: Distinction Scholarship
           url: ''
         - certificate_url: ''
-        date_end: ''
-        date_start: '2013-11-01'
-        description: '(1 out of 1000)'
-        icon: ''
-        organization: National Award, Nigeria
-        organization_url: ''
-        title: Corps Liaison Officer
-        url: ''
+          date_end: ''
+          date_start: '2013-11-01'
+          description: '(1 out of 1000)'
+          icon: ''
+          organization: National Award, Nigeria
+          organization_url: ''
+          title: Corps Liaison Officer
+          url: ''
     design:
       columns: '2'
   - block: collection
