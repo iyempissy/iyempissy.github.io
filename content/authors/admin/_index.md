@@ -39,7 +39,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Science,
+    - course: PhD in Computer Science
       institution: Leibniz University (LUH)
       year: 2024
     - course: MPhil in Systems Engineering and Engineering Management
