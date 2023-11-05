@@ -1,10 +1,10 @@
 ---
 title: 'Conversational AI and NLP Trend'
 
-event: 'Workshop on Privacy Preserving Analysis'
+event: 'Tsinghua University Science Park (TusPark)'
 event_url: ''
 
-location: 'Zukunftslabor Gesundheit'
+location: 'Tsinghua University Science Park (TusPark)'
 address:
   street: ''
   city: Hannover
