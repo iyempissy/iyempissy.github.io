@@ -1,28 +1,40 @@
 ---
-title: 'Conversational AI and NLP Trend'
+title: 'Privacy risks: From anonymization to machine learning'
 
-event: 'Tsinghua University Science Park TusPark'
+event: 'Workshop on Privacy Preserving Analysis'
 event_url: ''
 
-location: 'Tsinghua University Science Park TusPark'
+location: 'Zukunftslabor Gesundheit'
 address:
   street: ''
-  city: Kwun Tong
+  city: Hannover
   region: ''
   postcode: 
-  country: Hong Kong
+  country: Germany
 
-summary: 'Elevating User Feedback: Exploring NLP's Impact on Review Helpfulness Prediction.'
-abstract: 'In this talk, we will discover how NLP techniques and models are harnessed to unlock the hidden insights within user-generated reviews for the review helpfulness prediction problem. We'll explore the advanced algorithms that extract valuable information, sentiment, and context from text data, ultimately aiding in the prediction of review helpfulness. This talk is your gateway to understanding the pivotal role of NLP in Review Helpfulness Prediction and could reshape the way we evaluate and harness user feedback in real-world applications.'
+summary: 'Privacy risks: From anonymization to machine learning.'
+abstract: 'Mining sensitive data such as health data can lead to faster medical decisions, improvement in the
+quality of treatment, disease prevention and innovative solutions. However, health data is highly
+sensitive and subject to regulations such as the General Data Protection Regulation (GDPR), which
+aims to ensure patient privacy. Anonymization or removal of patient identifiable information,
+though the most conventional way, is the first important step to adhere to the regulations and
+incorporate privacy concerns. Nonetheless, anonymization alone is not sufficient.
+In this first part of the talk, we will see a reconstruction attack on anonymized data that can retrieve
+the original private data with a high accuracy.
+Similarly, when machine learning models are trained on sensitive data, the released model can still
+leak information on the data it was trained on.
+In the second part of the talk, we will discuss membership inference attack on graph neural networks
+(GNNs) where the goal of the adversary is to determine whether a particular data was used in
+training the target model.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2019-01-14T19:00:00Z'
+date: '2021-07-14T13:00:00Z'
 # date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2023-08-09T00:00:00Z'
+publishDate: '2021-07-14T00:00:00Z'
 
 authors: []
 tags: []
@@ -57,5 +69,5 @@ slides: ''
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - tuspark
+  - zukunflabor-workshop
 ---
