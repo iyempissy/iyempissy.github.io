@@ -12,7 +12,7 @@ address:
   postcode: 
   country: Hong Kong
 
-summary: 'Privacy risks: From anonymization to machine learning.'
+summary: 'Elevating User Feedback: Exploring NLP\'s Impact on Review Helpfulness Prediction.'
 abstract: 'Mining sensitive data such as health data can lead to faster medical decisions, improvement in the
 quality of treatment, disease prevention and innovative solutions. However, health data is highly
 sensitive and subject to regulations such as the General Data Protection Regulation (GDPR), which
