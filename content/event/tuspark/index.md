@@ -7,7 +7,7 @@ event_url: ''
 location: 'Tsinghua University Science Park (TusPark)'
 address:
   street: ''
-  city: Hannover
+  city: Kwun Tong
   region: ''
   postcode: 
   country: Germany
