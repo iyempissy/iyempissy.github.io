@@ -16,7 +16,7 @@ summary: 'Privacy risks: From anonymization to machine learning.'
 abstract: 'Mining sensitive data such as health data can lead to faster medical decisions, improvement in the
 quality of treatment, disease prevention and innovative solutions. However, health data is highly
 sensitive and subject to regulations such as the General Data Protection Regulation (GDPR), which
-aims to ensure patient's privacy. Anonymization or removal of patient identifiable information,
+aims to ensure patient\'s privacy. Anonymization or removal of patient identifiable information,
 though the most conventional way, is the first important step to adhere to the regulations and
 incorporate privacy concerns. Nonetheless, anonymization alone is not sufficient.
 In this first part of the talk, we will see a reconstruction attack on anonymized data that can retrieve
