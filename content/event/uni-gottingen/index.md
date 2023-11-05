@@ -1,10 +1,10 @@
 ---
 title: 'Navigating the Privacy Maze: Examining the Dark Side of Model Explanations'
 
-event: University of Göttingen
+event: 'University of Göttingen'
 event_url: ''
 
-location: University of Göttingen, Germany
+location: 'University of Göttingen, Germany'
 address:
   street: ''
   city: Göttingen

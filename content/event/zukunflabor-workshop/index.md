@@ -1,10 +1,10 @@
 ---
-title: 'Navigating the Privacy Maze: Examining the Dark Side of Model Explanations'
+title: 'Privacy risks: From anonymization to machine learning'
 
-event: CISPA, Hannover
+event: 'Workshop on Privacy Preserving Analysis'
 event_url: ''
 
-location: CISPA, Hannover
+location: 'Zukunftslabor Gesundheit'
 address:
   street: ''
   city: Hannover
@@ -12,17 +12,29 @@ address:
   postcode: 
   country: Germany
 
-summary: Exploring the privacy risks associated with model explanations.
-abstract: 'In this talk, we will explore the privacy risks associated with model explanations in graph neural networks (GNNs), which are powerful machine learning models for structured data. While model explanations provide valuable insights and enhance user trust, they also carry the potential of inadvertently revealing sensitive information. We will discuss the trade-offs between accuracy, interpretability, and privacy, focusing on our proposed method for extracting private graphs through feature explanations. By examining these trade-offs, we will highlight the challenges and opportunities in achieving a balance between them.'
+summary: 'Privacy risks: From anonymization to machine learning.'
+abstract: 'Mining sensitive data such as health data can lead to faster medical decisions, improvement in the
+quality of treatment, disease prevention and innovative solutions. However, health data is highly
+sensitive and subject to regulations such as the General Data Protection Regulation (GDPR), which
+aims to ensure patient's privacy. Anonymization or removal of patient identifiable information,
+though the most conventional way, is the first important step to adhere to the regulations and
+incorporate privacy concerns. Nonetheless, anonymization alone is not sufficient.
+In this first part of the talk, we will see a reconstruction attack on anonymized data that can retrieve
+the original private data with a high accuracy.
+Similarly, when machine learning models are trained on sensitive data, the released model can still
+leak information on the data it was trained on.
+In the second part of the talk, we will discuss membership inference attack on graph neural networks
+(GNNs) where the goal of the adversary is to determine whether a particular data was used in
+training the target model.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-08-09T13:00:00Z'
+date: '2021-07-14T13:00:00Z'
 # date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2023-08-09T00:00:00Z'
+publishDate: '2021-07-14T00:00:00Z'
 
 authors: []
 tags: []
@@ -57,5 +69,5 @@ slides: ''
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - cispa-hannover
+  - zukunflabor-workshop
 ---

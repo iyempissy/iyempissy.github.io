@@ -1,10 +1,10 @@
 ---
 title: 'Navigating the Privacy Maze: Examining the Dark Side of Model Explanations'
 
-event: CISPA, Hannover
+event: 'CISPA, Hannover'
 event_url: ''
 
-location: CISPA, Hannover
+location: 'CISPA, Hannover'
 address:
   street: ''
   city: Hannover
