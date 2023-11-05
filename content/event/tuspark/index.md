@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: 'Conversational AI and NLP Trend'
 
 event: 'Tsinghua University Science Park (TusPark), Hong Kong'
@@ -7,7 +7,7 @@ event_url: ''
 location: 'Tsinghua University Science Park (TusPark)'
 address:
   street: ''
-  city: 'Kwun Tong'
+  city: Kwun Tong
   region: ''
   postcode: ''
   country: Hong Kong
@@ -58,4 +58,4 @@ slides: ''
 #   Otherwise, set `projects = []`.
 projects:
   - tuspark
---- -->
+---

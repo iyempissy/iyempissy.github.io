@@ -1,5 +1,5 @@
 ---
-title: 'Navigating the Privacy Maze: Examining the Dark Side of Model Explanations'
+title: 'Navigating the Privacy Maze: Examining the Dark Side of Model Explanations-'
 
 event: 'University of Göttingen'
 event_url: ''
