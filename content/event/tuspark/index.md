@@ -9,7 +9,7 @@ address:
   street: ''
   city: 'Kwun Tong'
   region: ''
-  postcode: 
+  postcode: ''
   country: 'Hong Kong'
 
 summary: 'Elevating User Feedback: Exploring NLP's Impact on Review Helpfulness Prediction.'
