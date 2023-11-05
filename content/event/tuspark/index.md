@@ -1,5 +1,5 @@
 ---
-title: 'Privacy risks: From anonymization to machine learning'
+title: 'Conversational AI and NLP Trend'
 
 event: 'Workshop on Privacy Preserving Analysis'
 event_url: ''
@@ -69,5 +69,5 @@ slides: ''
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - zukunflabor-workshop
+  - tuspark
 ---
