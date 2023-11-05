@@ -1,16 +1,16 @@
 ---
 title: 'Conversational AI and NLP Trend'
 
-event: 'Tsinghua University Science Park TusPark, Hong Kong'
+event: 'Tsinghua University Science Park TusPark'
 event_url: ''
 
-location: 'Zukunftslabor Gesundheit'
+location: 'Tsinghua University Science Park TusPark'
 address:
   street: ''
-  city: Hannover
+  city: Kwun Tong
   region: ''
   postcode: 
-  country: Germany
+  country: Hong Kong
 
 summary: 'Elevating User Feedback: Exploring NLP's Impact on Review Helpfulness Prediction.'
 abstract: 'In this talk, we will discover how NLP techniques and models are harnessed to unlock the hidden insights within user-generated reviews for the review helpfulness prediction problem. We'll explore the advanced algorithms that extract valuable information, sentiment, and context from text data, ultimately aiding in the prediction of review helpfulness. This talk is your gateway to understanding the pivotal role of NLP in Review Helpfulness Prediction and could reshape the way we evaluate and harness user feedback in real-world applications.'
