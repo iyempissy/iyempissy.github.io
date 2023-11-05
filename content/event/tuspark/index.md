@@ -1,15 +1,15 @@
 ---
 title: 'Conversational AI and NLP Trend'
 
-event: 'Tsinghua University Science Park (TusPark), Hong Kong'
+event: 'Tsinghua University Science Park TusPark, Hong Kong'
 event_url: ''
 
-location: 'Tsinghua University Science Park (TusPark)'
+location: 'Tsinghua University Science Park TusPark'
 address:
   street: ''
   city: Kwun Tong
   region: ''
-  postcode: ''
+  postcode: 
   country: Hong Kong
 
 summary: 'Elevating User Feedback: Exploring NLP's Impact on Review Helpfulness Prediction.'
