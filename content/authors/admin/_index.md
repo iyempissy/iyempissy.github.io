@@ -149,6 +149,6 @@ highlight_name: true
 ---
 
 Emmanuel is a doctoral candiate in his final year at L3S Research Center, Leibniz university Hannover under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/). He is deeply passionate about the privacy of machine learning models, with a specialization in graph neural networks. 
-<!-- His research focuses on safeguarding user privacy while harnessing the potential of machine learning algorithms.  -->
 Emmanuel excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques to foster a more secure, responsible and ethical AI. In his free time, he provides consultancy services on data / ML model privacy.
+<!-- His research focuses on safeguarding user privacy while harnessing the potential of machine learning algorithms.  -->
 {style="text-align: justify;"}
