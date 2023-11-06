@@ -27,7 +27,8 @@ abstract: Graph Neural Networks (GNNs), which generalize traditional deep neural
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- attack
+- defense
 featured: false
 
 # links:
