@@ -1,43 +1,54 @@
 ---
-title: "Membership inference attack on graph neural networks"
+title: "Releasing graph neural networks with differential privacy guarantees"
 authors:
 - Iyiola E. Olatunji
-- Wolfgang Nejdl
+- Thorben Funke
 - Megha Khosla
 author_notes:
-date: "2021-12-01T00:00:00Z"
+date: "2023-06-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-12-01T00:00:00Z"
+publishDate: "2023-06-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["paper-conference"] #conference
-# publication_types: ["article-journal"] #journal
+# publication_types: ["paper-conference"] #conference
+publication_types: ["article-journal"] #journal
 # publication_types: ["article"] # preprint
 
 
 # Publication name and optional abbreviated publication name.
-publication: "*2021 Third IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)*"
+publication: "*Transactions on Machine Learning Research (TMLR)*"
 publication_short: ""
 
-abstract: Graph Neural Networks (GNNs), which generalize traditional deep neural networks on graph data, have achieved state-of-the-art performance on several graph analytical tasks. We focus on how trained GNN models could leak information about the member nodes that they were trained on. We introduce two realistic settings for performing a membership inference (MI) attack on GNNs. While choosing the simplest possible attack model that utilizes the posteriors of the trained model (black-box access), we thoroughly analyze the properties of GNNs and the datasets which dictate the differences in their robustness towards MI attack. While in traditional machine learning models, overfitting is considered the main cause of such leakage, we show that in GNNs the additional structural information is the major contributing factor. We support our findings by extensive experiments on four representative GNN models. To prevent MI attacks on GNN, we propose two effective defenses that significantly decreases the attacker's inference by up to 60% without degradation to the target model's performance. Our code is available at https://github.com/iyempissy/rebMIGraph.
+abstract: With the increasing popularity of graph neural networks (GNNs) in several sensitive applications like healthcare and medicine, concerns have been raised over the privacy aspects of
+trained GNNs. More notably, GNNs are vulnerable to privacy attacks, such as membership
+inference attacks, even if only black-box access to the trained model is granted. We propose
+PrivGnn, a privacy-preserving framework for releasing GNN models in a centralized setting.
+Assuming an access to a public unlabeled graph, PrivGnn provides a framework to release
+GNN models trained explicitly on public data along with knowledge obtained from the
+private data in a privacy preserving manner. PrivGnn combines the knowledge-distillation
+framework with the two noise mechanisms, random subsampling, and noisy labeling, to
+ensure rigorous privacy guarantees. We theoretically analyze our approach in the Rènyi
+differential privacy framework. Besides, we show the solid experimental performance of
+our method compared to several baselines adapted for graph-structured data. Our code is
+available at https://github.com/iyempissy/privGnn.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Attack and Defense
+- Defense
 
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://arxiv.org/pdf/2101.06570.pdf'
-url_code: 'https://github.com/iyempissy/rebMIGraph'
+url_pdf: 'https://arxiv.org/pdf/2109.08907.pdf'
+url_code: 'https://github.com/iyempissy/privGnn'
 url_dataset: ''
 url_poster: ''
 url_project: ''

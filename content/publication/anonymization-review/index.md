@@ -1,43 +1,44 @@
 ---
-title: "Membership inference attack on graph neural networks"
+title: "A review of anonymization for healthcare data"
 authors:
 - Iyiola E. Olatunji
-- Wolfgang Nejdl
+- Jens Rauch
+- Matthias Katzensteiner
 - Megha Khosla
 author_notes:
-date: "2021-12-01T00:00:00Z"
+date: "2022-11-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-12-01T00:00:00Z"
+publishDate: "2022-11-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["paper-conference"] #conference
-# publication_types: ["article-journal"] #journal
+# publication_types: ["paper-conference"] #conference
+publication_types: ["article-journal"] #journal
 # publication_types: ["article"] # preprint
 
 
 # Publication name and optional abbreviated publication name.
-publication: "*2021 Third IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)*"
+publication: "*Big Data*"
 publication_short: ""
 
-abstract: Graph Neural Networks (GNNs), which generalize traditional deep neural networks on graph data, have achieved state-of-the-art performance on several graph analytical tasks. We focus on how trained GNN models could leak information about the member nodes that they were trained on. We introduce two realistic settings for performing a membership inference (MI) attack on GNNs. While choosing the simplest possible attack model that utilizes the posteriors of the trained model (black-box access), we thoroughly analyze the properties of GNNs and the datasets which dictate the differences in their robustness towards MI attack. While in traditional machine learning models, overfitting is considered the main cause of such leakage, we show that in GNNs the additional structural information is the major contributing factor. We support our findings by extensive experiments on four representative GNN models. To prevent MI attacks on GNN, we propose two effective defenses that significantly decreases the attacker's inference by up to 60% without degradation to the target model's performance. Our code is available at https://github.com/iyempissy/rebMIGraph.
+abstract: Mining health data can lead to faster medical decisions, improvement in the quality of treatment, disease prevention, and reduced cost, and it drives innovative solutions within the healthcare sector. However, health data are highly sensitive and subject to regulations such as the General Data Protection Regulation, which aims to ensure patient's privacy. Anonymization or removal of patient identifiable information, although the most conventional way, is the first important step to adhere to the regulations and incorporate privacy concerns. In this article, we review the existing anonymization techniques and their applicability to various types (relational and graph based) of health data. Besides, we provide an overview of possible attacks on anonymized data. We illustrate via a reconstruction attack that anonymization, although necessary, is not sufficient to address patient privacy and discuss methods for protecting against such attacks. Finally, we discuss tools that can be used to achieve anonymization.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Attack and Defense
+- Review
 
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://arxiv.org/pdf/2101.06570.pdf'
-url_code: 'https://github.com/iyempissy/rebMIGraph'
+url_pdf: 'https://www.liebertpub.com/doi/pdf/10.1089/big.2021.0169?casa_token=-mUJDfzeS8kAAAAA%3AsLQnzNrQmu4yiy787naS-qQILCjl9T91qcTY9F4_7p5i0Yi29GZHa1jM_AhTjEsJhZrZXxqwfGu8Hg'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
