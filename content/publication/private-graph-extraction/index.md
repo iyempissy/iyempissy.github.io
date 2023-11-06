@@ -1,54 +1,55 @@
 ---
-title: "Releasing graph neural networks with differential privacy guarantees"
+title: "Private graph extraction via feature explanations"
 authors:
 - Iyiola E. Olatunji
+- Mandeep Rathee
 - Thorben Funke
 - Megha Khosla
 author_notes:
-date: "2023-06-01T00:00:00Z"
+date: "2023-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-06-01T00:00:00Z"
+publishDate: "2023-07-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-# publication_types: ["paper-conference"] #conference
-publication_types: ["article-journal"] #journal
+publication_types: ["paper-conference"] #conference
+# publication_types: ["article-journal"] #journal
 # publication_types: ["article"] # preprint
 
 
 # Publication name and optional abbreviated publication name.
-publication: "*Transactions on Machine Learning Research (TMLR)*"
+publication: "*Proceedings on Privacy Enhancing Technologies (PETS)*"
 publication_short: ""
 
-abstract: 'With the increasing popularity of graph neural networks (GNNs) in several sensitive applications like healthcare and medicine, concerns have been raised over the privacy aspects of
-trained GNNs. More notably, GNNs are vulnerable to privacy attacks, such as membership
-inference attacks, even if only black-box access to the trained model is granted. We propose
-PrivGnn, a privacy-preserving framework for releasing GNN models in a centralized setting.
-Assuming an access to a public unlabeled graph, PrivGnn provides a framework to release
-GNN models trained explicitly on public data along with knowledge obtained from the
-private data in a privacy preserving manner. PrivGnn combines the knowledge-distillation
-framework with the two noise mechanisms, random subsampling, and noisy labeling, to
-ensure rigorous privacy guarantees. We theoretically analyze our approach in the Rènyi
-differential privacy framework. Besides, we show the solid experimental performance of
-our method compared to several baselines adapted for graph-structured data. Our code is
-available at https://github.com/iyempissy/privGnn.'
+abstract: 'Privacy and interpretability are two important ingredients for achieving trustworthy machine learning. We study the interplay of these
+two aspects in graph machine learning through graph reconstruction attacks. The goal of the adversary here is to reconstruct the
+graph structure of the training data given access to model explanations. Based on the different kinds of auxiliary information available to the adversary, we propose several graph reconstruction
+attacks. We show that additional knowledge of post-hoc feature explanations substantially increases the success rate of these attacks.
+Further, we investigate in detail the differences between attack
+performance with respect to three different classes of explanation methods for graph neural networks: gradient-based, perturbationbased, and surrogate model-based methods. While gradient-based
+explanations reveal the most in terms of the graph structure, we
+find that these explanations do not always score high in utility. For
+the other two classes of explanations, privacy leakage increases
+with an increase in explanation utility. Finally, we propose a defense based on a randomized response mechanism for releasing
+the explanations, which substantially reduces the attack success
+rate. Our code is available at https://github.com/iyempissy/graphstealing-attacks-with-explanation.'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Defense
+- Attack and Defense
 
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://arxiv.org/pdf/2109.08907.pdf'
-url_code: 'https://github.com/iyempissy/privGnn'
+url_pdf: 'https://arxiv.org/pdf/2206.14724.pdf'
+url_code: 'https://github.com/iyempissy/graph-stealing-attacks-with-explanation'
 url_dataset: ''
 url_poster: ''
 url_project: ''
