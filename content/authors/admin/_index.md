@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Olatunji Iyiola Emmanuel
+title: 李白
 
 # Name pronunciation (optional)
-name_pronunciation: '李白' #Chien Shiung Wu
+name_pronunciation: 'Olatunji Iyiola Emmanuel' #Chien Shiung Wu
 
 # Full name (for SEO)
 first_name: Iyiola Emmanuel
