@@ -3,7 +3,7 @@
 title: Olatunji Iyiola Emmanuel
 
 # Name pronunciation (optional)
-name_pronunciation: '' #Chien Shiung Wu
+name_pronunciation: '李白' #Chien Shiung Wu
 
 # Full name (for SEO)
 first_name: Iyiola Emmanuel
@@ -11,7 +11,7 @@ last_name: Olatunji
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😃
 
 # Is this the primary user of the site?
 superuser: true
@@ -148,6 +148,6 @@ social:
 highlight_name: true
 ---
 
-Emmanuel is a doctoral candiate in his final year at L3S Research Center, Leibniz university Hannover under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/). He is deeply passionate about the privacy of machine learning models, with a specialization in graph neural networks. Emmanuel excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques to foster a more secure, responsible and ethical AI. He was a visiting researcher in the [Multimedia Computing Group](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing) at [TU Delft](https://www.tudelft.nl/en/). In his free time, he provides consultancy services on data / ML model privacy.
+**Emmanuel** is a doctoral candiate in his final year at [L3S Research Center](https://www.l3s.de/), [Leibniz university Hannover](https://www.uni-hannover.de/en/) under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/). He is deeply passionate about the privacy of machine learning models, with a specialization in graph neural networks. Emmanuel excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques to foster a more secure, responsible and ethical AI. He was a visiting researcher in the [Multimedia Computing Group](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing) at [TU Delft](https://www.tudelft.nl/en/) and a researcher in the [Leibniz AI lab](https://leibniz-ai-lab.de/). In his free time, he provides consultancy services on data / ML model privacy.
 <!-- His research focuses on safeguarding user privacy while harnessing the potential of machine learning algorithms.  -->
 {style="text-align: justify;"}

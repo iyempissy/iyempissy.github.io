@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Mtmr-net: Multi-task deep learning with margin ranking loss for lung nodule analysis"
 authors:
 - Lihao Liu
 - Qi Dou
