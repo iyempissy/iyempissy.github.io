@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Olatunji Iyiola Emmanuel \ (李白)
+title: Olatunji Iyiola Emmanuel (李白)
 
 # Name pronunciation (optional)
 name_pronunciation: '' #Chien Shiung Wu
