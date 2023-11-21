@@ -135,6 +135,15 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: ''
+          date_end: ''
+          date_start: '2021-12-01'
+          description: ''
+          icon: ''
+          organization: IEEE Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)
+          organization_url: ''
+          title: Best Student Paper
+          url: ''
+        - certificate_url: ''
           date_end: '2019-12-01'
           date_start: '2017-08-01'
           description: ''
