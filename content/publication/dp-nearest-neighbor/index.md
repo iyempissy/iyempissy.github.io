@@ -1,5 +1,5 @@
 ---
-title: "Does Black-box Attribute Inference Attacks on Graph Neural Networks Constitute Privacy Risk?"
+title: "Achieving differential privacy for k-nearest neighbors based outlier detection by data partitioning"
 authors:
 - Jens Rauch
 - Iyiola E. Olatunji
@@ -23,7 +23,7 @@ publication_types: ["article"] # preprint
 publication: "*ArXiv*"
 publication_short: ""
 
-abstract: When applying outlier detection in settings where data is sensitive, mechanisms which guarantee the privacy of the underlying data are needed. The k-nearest neighbors (k-NN) algorithm is a simple and one of the most effective methods for outlier detection. So far, there have been no attempts made to develop a differentially private (ϵ-DP) approach for k-NN based outlier detection. Existing approaches often relax the notion of ϵ-DP and employ other methods than k-NN. We propose a method for k-NN based outlier detection by separating the procedure into a fitting step on reference inlier data and then apply the outlier classifier to new data. We achieve ϵ-DP for both the fitting algorithm and the outlier classifier with respect to the reference data by partitioning the dataset into a uniform grid, which yields low global sensitivity. Our approach yields nearly optimal performance on real-world data with varying dimensions when compared to the non-private versions of k-NN.
+abstract: When applying outlier detection in settings where data is sensitive, mechanisms which guarantee the privacy of the underlying data are needed. The k-nearest neighbors (k-NN) algorithm is a simple and one of the most effective methods for outlier detection. So far, there have been no attempts made to develop a differentially private (E-DP) approach for k-NN based outlier detection. Existing approaches often relax the notion of E-DP and employ other methods than k-NN. We propose a method for k-NN based outlier detection by separating the procedure into a fitting step on reference inlier data and then apply the outlier classifier to new data. We achieve E-DP for both the fitting algorithm and the outlier classifier with respect to the reference data by partitioning the dataset into a uniform grid, which yields low global sensitivity. Our approach yields nearly optimal performance on real-world data with varying dimensions when compared to the non-private versions of k-NN.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
