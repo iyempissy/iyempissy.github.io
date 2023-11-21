@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: 'Made with ❤️ by Olatunji Iyiola Emmanuel. © {year}' #This work is licensed under {license}
+    notice: 'Made with ❤️ by Emmanuel. © {year}' #This work is licensed under {license}
     license:
       enable: false #true
       allow_derivatives: false
