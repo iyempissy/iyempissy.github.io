@@ -31,6 +31,7 @@ bio: Emmanuel's interest is in the privacy of ML models, interpretability and fa
 interests:
   - Security and Privacy
   - Artificial Intelligence
+  - Large Language Models
   - Explainability
   - Health Informatics
   - Graph Neural Networks
@@ -121,7 +122,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:iyiola@l3s.de'
+    link: 'mailto:olatunji.emmanuel@cispa.de'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/iyempissy
@@ -148,6 +149,5 @@ social:
 highlight_name: true
 ---
 
-**Emmanuel** is a doctoral candiate at [Leibniz Universität Hannover (LUH)](https://www.uni-hannover.de/en/) under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/). He is deeply passionate about the privacy of machine learning models, with a specialization in graph neural networks. Emmanuel excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques to foster a more secure, responsible and ethical AI. He is a researcher in the [L3S Research Center](https://www.l3s.de/) and [Leibniz AI lab](https://leibniz-ai-lab.de/). He was a visiting researcher in the [Multimedia Computing (MMC) Group](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing) at [TU Delft](https://www.tudelft.nl/en/). In his free time, he provides consultancy services on data / ML model privacy.
-<!-- His research focuses on safeguarding user privacy while harnessing the potential of machine learning algorithms.  -->
+**Emmanuel** is a postdoctoral researcher at [CISPA](https://cispa.de/en) working with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) on the privacy of large language models (LLMs) in the [SprintML lab](https://sprintml.com). Emmanuel completed his PhD at [Leibniz Universität Hannover (LUH)](https://www.uni-hannover.de/en/) under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/), where he worked on the privacy of graph neural networks. He is deeply passionate about the privacy of machine learning models and excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques to foster a more secure, responsible and ethical AI. He was a researcher in the [L3S Research Center](https://www.l3s.de/) and [Leibniz AI lab](https://leibniz-ai-lab.de/). He was a visiting researcher in the [Multimedia Computing (MMC) Group](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing) at [TU Delft](https://www.tudelft.nl/en/). In his free time, he provides consultancy services on data / ML model privacy.
 {style="text-align: justify;"}

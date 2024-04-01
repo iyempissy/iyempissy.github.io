@@ -62,13 +62,23 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+          - title: Postdoctoral Researcher
+          company: CISPA
+          company_url: ''
+          company_logo: org-x
+          location: Germany
+          date_start: '2024-03-01'
+          date_end: ''
+          description: |2-
+              * Privacy of large language models (LLMs)
+              * Attacks and Defenses against LLMs
         - title: Research Scientist
           company: L3S Research Center
           company_url: ''
           company_logo: org-x
           location: Germany
           date_start: '2020-03-01'
-          date_end: ''
+          date_end: '2024-02-29'
           description: |2-
               * Differential Privacy and application on graph neural networks
               * Privacy and application of AI in healthcare
