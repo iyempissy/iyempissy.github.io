@@ -1,28 +1,28 @@
 ---
-title: 'Examining the Relationship Between Privacy and Interpretability in Graph Machine Learning'
+title: 'Navigating the Privacy Maze: Examining the Dark Side of Model Explanations-'
 
-event: 'TUDelft, Netherlands'
+event: 'University of Göttingen'
 event_url: ''
 
-location: 'TUDelft, Netherlands'
+location: 'University of Göttingen, Germany'
 address:
   street: ''
-  city: Delft
+  city: Göttingen
   region: ''
   postcode: 
-  country: Netherlands
+  country: Germany
 
-summary: Privacy vs Interpretability tradeoff in Graph Machine Learning.
-abstract: "Model explanations offer valuable insights into the reasoning behind a model's predictions and build users' trust. However, they also carry the potential of inadvertently revealing sensitive information. In this talk, we will explore the privacy risks associated with model explanations in graph neural networks (GNNs), which are powerful machine learning models for graph structured data. We will discuss the trade-offs between model accuracy, interpretability, and privacy, focusing on our proposed attacks for extracting private graphs through feature explanations. In addition, we will explore how the different classes of model explanation methods for GNNs leak varying degrees of information in reconstructing the private graph. By examining these trade-offs, we will highlight the challenges and opportunities in achieving a balance between them."
+summary: Exploring the privacy risks associated with model explanations.
+abstract: 'In this seminar, we will explore the privacy risks associated with model explanations in graph neural networks (GNNs), which are powerful machine learning models for structured data. While model explanations provide valuable insights and enhance user trust, they also carry the potential of inadvertently revealing sensitive information. We will discuss the trade-offs between accuracy, interpretability, and privacy, focusing on our proposed method for extracting private graphs through feature explanations. By examining these trade-offs, we will highlight the challenges and opportunities in achieving a balance between them.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-02-08T13:00:00Z'
+date: '2023-08-03T13:00:00Z'
 # date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2024-02-08T00:00:00Z'
+publishDate: '2023-08-02T00:00:00Z'
 
 authors: []
 tags: []
