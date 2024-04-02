@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Doctoral Researcher #(Privacy Preserving Machine learning)
+role: Postdoctoral Researcher #(Privacy Preserving Machine learning)
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Leibniz University Hannover
-    url: https://www.uni-hannover.de/en/
+  - name: CISPA
+    url: https://www.cispa.de/en/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Emmanuel's interest is in the privacy of ML models, interpretability and fairness
