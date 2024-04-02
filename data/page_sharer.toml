@@ -47,7 +47,7 @@
   title = "Weibo"
   icon_pack = "fab"
   icon = "weibo"
-  enable = False
+  enable = false
 
 [[buttons]]
   id = "reddit"
