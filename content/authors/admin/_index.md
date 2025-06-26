@@ -122,7 +122,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:olatunji.emmanuel@cispa.de'
+    link: 'mailto:emmanuel.olatunji@uni.lu'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/iyempissy
