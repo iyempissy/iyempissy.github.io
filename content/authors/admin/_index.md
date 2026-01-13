@@ -21,16 +21,15 @@ role: Postdoctoral Researcher #(Privacy Preserving Machine learning)
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: TruX @ SnT, UniLu
-    url: https://www.uni.lu/snt-en/
+  - name: CISPA
+    url: https://www.cispa.de/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Emmanuel's interest is in the privacy and security of ML models, secure code generation, interpretability and fairness
+bio: Emmanuel's interest is in the privacy of ML models, interpretability and fairness
 
 # Interests to show in About widget
 interests:
   - Security and Privacy
-  - Secure Code Generation
   - Artificial Intelligence
   - Large Language Models
   - Explainability
@@ -41,9 +40,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Science
+    - course: PhD in Computer Science (In Progress)
       institution: Leibniz University (LUH)
-      year: 2024
+      year: 2024 (Expected)
     - course: MPhil in Systems Engineering and Engineering Management
       institution: Chinese University of Hong Kong (CUHK)
       year: 2020
@@ -149,18 +148,13 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-**Emmanuel** is a postdoctoral researcher in the [TruX](https://www.uni.lu/snt-en/research-groups/trux/) group at [SnT](https://www.uni.lu/snt-en/), University of Luxembourg, working with [Tegawendé Bissyande](https://bissyande.github.io/) and [Jacques Klein](https://jacquesklein2302.github.io/). His research focuses on the security and privacy of large language models (LLMs) for trustworthy software.
 
-Previously, he was a postdoc at CISPA in the [SprintML lab](https://sprintml.com), collaborating with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/). He earned his PhD from [Leibniz Universität Hannover (LUH)](https://www.uni-hannover.de/en/) under [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/), and was affiliated with the [L3S Research Center](https://www.l3s.de/), [Leibniz AI lab](https://leibniz-ai-lab.de/), and a visiting researcher at [TU Delft](https://www.tudelft.nl/en/).
-His work centers on identifying vulnerabilities in machine learning models and codes, and developing defenses to promote secure and ethical AI.
+**Emmanuel** is a postdoctoral researcher in the [TruX](https://www.uni.lu/snt-en/research-groups/trux/) research group at [SnT](https://www.uni.lu/snt-en/), University of Luxembourg, working with [Tegawendé Bissyande](https://bissyande.github.io/) and [Jacques Klein](https://jacquesklein2302.github.io/). His research focuses on the security and privacy of large language models (LLMs) for trustworthy software.
 
-
-<!-- **Emmanuel** is a postdoctoral researcher in the [TruX](https://www.uni.lu/snt-en/research-groups/trux/) research group at [SnT](https://www.uni.lu/snt-en/), University of Luxembourg, working with [Tegawendé Bissyande](https://bissyande.github.io/) and [Jacques Klein](https://jacquesklein2302.github.io/). His research focuses on the security and privacy of large language models (LLMs) for trustworthy software. 
-
-Previously, he was a postdoc at CISPA in the [SprintML lab](https://sprintml.com), collaborating with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) on LLM privacy. 
+Previously, he was a postdoc at CISPA in the [SprintML lab](https://sprintml.com), collaborating with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) on LLM privacy.
 
 He earned his PhD from [Leibniz Universität Hannover (LUH)](https://www.uni-hannover.de/en/) under [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/), focusing on privacy of graph neural networks (GNNs). He was affiliated with the [L3S Research Center](https://www.l3s.de/), [Leibniz AI lab](https://leibniz-ai-lab.de/), and was a visiting researcher at [TU Delft](https://www.tudelft.nl/en/).
 
-His work centers on identifying vulnerabilities in machine learning models and developing defenses to promote secure and ethical AI. -->
+His work centers on identifying vulnerabilities in machine learning models and developing defenses to promote secure and ethical AI. 
 <!-- In his free time, he provides consultancy services on data / ML model privacy. -->
 {style="text-align: justify;"}
