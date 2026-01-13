@@ -149,12 +149,6 @@ social:
 highlight_name: true
 ---
 
-**Emmanuel** is a postdoctoral researcher in the [TruX](https://www.uni.lu/snt-en/research-groups/trux/) research group at [SnT](https://www.uni.lu/snt-en/), University of Luxembourg, working with [Tegawendé Bissyande](https://bissyande.github.io/) and [Jacques Klein](https://jacquesklein2302.github.io/). His research focuses on the security and privacy of large language models (LLMs) for trustworthy software.
-
-Previously, he was a postdoc at CISPA in the [SprintML lab](https://sprintml.com), collaborating with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) on LLM privacy.
-
-He earned his PhD from [Leibniz Universität Hannover (LUH)](https://www.uni-hannover.de/en/) under [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/), focusing on privacy of graph neural networks (GNNs). He was affiliated with the [L3S Research Center](https://www.l3s.de/), [Leibniz AI lab](https://leibniz-ai-lab.de/), and was a visiting researcher at [TU Delft](https://www.tudelft.nl/en/).
-
-His work centers on identifying vulnerabilities in machine learning models and developing defenses to promote secure and ethical AI. 
+**Emmanuel** works as a postdoctoral researcher at [CISPA](https://cispa.de/en) with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) on the privacy of large language models (LLMs) in the [SprintML lab](https://sprintml.com). Emmanuel is currently completing his PhD at [Leibniz Universität Hannover (LUH)](https://www.uni-hannover.de/en/) under the supervision of Prof. [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and Asst. Prof. [Megha Khosla](https://khosla.github.io/), focusing on the privacy of graph neural networks (GNNs). He is deeply passionate about the privacy of machine learning models and excels in identifying vulnerabilities in machine learning models by lauching attacks and developing defenses, with a particular focus on the strategic implementation of differential privacy techniques to foster a more secure, responsible and ethical AI. He was a researcher in the [L3S Research Center](https://www.l3s.de/) and [Leibniz AI lab](https://leibniz-ai-lab.de/). He was a visiting researcher in the [Multimedia Computing (MMC) Group](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing) at [TU Delft](https://www.tudelft.nl/en/). 
 <!-- In his free time, he provides consultancy services on data / ML model privacy. -->
 {style="text-align: justify;"}
