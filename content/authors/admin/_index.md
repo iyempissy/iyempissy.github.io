@@ -40,9 +40,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Science *(In Progress)*
+    - course: PhD in Computer Science
       institution: Leibniz University (LUH)
-      year: 2024 (Expected)
+      year: 2024
     - course: MPhil in Systems Engineering and Engineering Management
       institution: Chinese University of Hong Kong (CUHK)
       year: 2020
