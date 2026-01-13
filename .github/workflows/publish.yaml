@@ -4,11 +4,13 @@ env:
   WC_HUGO_VERSION: '0.119.0'
 
 on:
+  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Required permissions for GitHub Pages deploy
+# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -24,137 +26,45 @@ jobs:
     if: github.repository_owner != 'wowchemy'
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repo
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Needed for Hugo's .GitInfo
-
-      # Setup Hugo
+          # Fetch history for Hugo's .GitInfo and .Lastmod
+          fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-
-      # Optional: cache Hugo modules
       - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache_runner/
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
-
-      # Configure Pages (needed for base_url)
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-
-      # Build site with Hugo
-      - name: Build Hugo site
+      - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-      # Verify Hugo output
-      - name: Verify Hugo output
-        run: |
-          echo "Contents of ./public:"
-          ls -la ./public
-          if [ ! -f ./public/index.html ]; then
-            echo "Error: Hugo did not generate index.html"
-            exit 1
-          fi
-
-      # Upload Pages artifact
-      - name: Upload Pages artifact
-        id: pages-artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Deploy website to GitHub Pages
+  # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'wowchemy'
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
+      # url: ${{  steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-
-
-# name: Deploy Wowchemy website to GitHub Pages
-
-# env:
-#   WC_HUGO_VERSION: '0.119.0'
-
-# on:
-#   # Trigger the workflow every time you push to the `main` branch
-#   push:
-#     branches: ["main"]
-#   # Allows you to run this workflow manually from the Actions tab on GitHub.
-#   workflow_dispatch:
-
-# # Provide permission to clone the repo and deploy it to GitHub Pages
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
-
-# concurrency:
-#   group: "pages"
-#   cancel-in-progress: false
-
-# jobs:
-#   # Build website
-#   build:
-#     if: github.repository_owner != 'wowchemy'
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v4
-#         with:
-#           # Fetch history for Hugo's .GitInfo and .Lastmod
-#           fetch-depth: 0
-#       - name: Setup Hugo
-#         uses: peaceiris/actions-hugo@v2
-#         with:
-#           hugo-version: ${{ env.WC_HUGO_VERSION }}
-#           extended: true
-#       - uses: actions/cache@v4
-#         with:
-#           path: /tmp/hugo_cache_runner/
-#           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-#           restore-keys: |
-#             ${{ runner.os }}-hugomod-
-#       - name: Setup Pages
-#         id: pages
-#         uses: actions/configure-pages@v4
-#       - name: Build with Hugo
-#         env:
-#           HUGO_ENVIRONMENT: production
-#         run: |
-#           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-#           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-#       - name: Upload artifact
-#         uses: actions/upload-pages-artifact@v3
-#         with:
-#           path: ./public
-
-#   # Deploy website to GitHub Pages hosting
-#   deploy:
-#     if: github.repository_owner != 'wowchemy'
-#     environment:
-#       name: github-pages
-#       url: ${{ steps.deployment.outputs.page_url }}
-#     runs-on: ubuntu-latest
-#     needs: build
-#     steps:
-#       - name: Deploy to GitHub Pages
-#         id: deployment
-#         uses: actions/deploy-pages@v3
