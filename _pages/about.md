@@ -7,22 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-Postdoctoral Researcher at CISPA working on privacy, security, and reliability of machine learning systems, with a particular focus on graph neural networks and large language models.
+I am a Postdoctoral Researcher at [CISPA](https://cispa.de/en), where I work on privacy risks and defenses for machine learning systems, with a particular focus on graph neural networks and large language models.
 
-Biography
+My recent work studies how trained models leak information, how those weaknesses can be exploited, and how rigorous defenses such as differential privacy can help make AI systems more secure, reliable, and responsible.
+
+Research
 ======
-I work as a postdoctoral researcher at [CISPA](https://cispa.de/en) with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) on the privacy of large language models in the [SprintML Lab](https://sprintml.com). I am also completing my PhD at [Leibniz Universitat Hannover](https://www.uni-hannover.de/en/) under the supervision of [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and [Megha Khosla](https://khosla.github.io/), focusing on privacy risks and defenses for graph neural networks.
+My research interests include machine learning privacy, AI security, graph neural networks, large language models, explainability, and trustworthy AI. I am especially interested in the tension between model utility, interpretability, and privacy.
 
-My research studies how machine learning systems leak information, how those weaknesses can be exploited, and how rigorous defenses such as differential privacy can help build more secure and responsible AI. I have also worked on privacy-preserving healthcare analytics, review helpfulness prediction, and applied machine learning in health informatics.
-
-Research Interests
-======
-- Security and privacy for machine learning
-- Large language models
-- Graph neural networks
-- Explainability and trustworthy AI
-- Health informatics
-- Social media mining
+I work with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) in the [SprintML Lab](https://sprintml.com). I am also completing my PhD at [Leibniz University Hannover](https://www.uni-hannover.de/en/) under the supervision of [Wolfgang Nejdl](https://www.kbs.uni-hannover.de/~nejdl/) and [Megha Khosla](https://khosla.github.io/).
 
 Positions Held
 ======
@@ -39,17 +32,19 @@ Education
 - MPhil in Systems Engineering and Engineering Management, Chinese University of Hong Kong, 2020
 - MSc in Advanced Information Systems, Hong Kong Baptist University, 2015
 
-Selected Awards
+Selected Awards and Honors
 ======
-- Best Student Paper, IEEE TPS-ISA, 2021
+- Best Student Paper, IEEE Trust, Privacy and Security in Intelligent Systems and Applications, 2021
 - Postgraduate Studentship Scholarship, Chinese University of Hong Kong, 2017-2019
 - High Distinction Scholarship, Hong Kong Baptist University, 2015
 - Distinction Scholarship, Hong Kong Baptist University, 2014
 - Corps Liaison Officer National Award, Nigeria, 2013
 
-Links
+Selected Topics
 ======
-- [Google Scholar](https://scholar.google.co.uk/citations?user=nPIxx4UAAAAJ&hl=en)
-- [GitHub](https://github.com/iyempissy)
-- [LinkedIn](https://hk.linkedin.com/in/olatunjiiyem)
-- [Email](mailto:olatunji.emmanuel@cispa.de)
+- Privacy and security for machine learning
+- Large language models
+- Graph neural networks
+- Explainability and trustworthy AI
+- Health informatics
+- Social media mining
