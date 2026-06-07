@@ -10,7 +10,7 @@ baseurl: ""
 repository: "iyempissy/iyempissy.github.io"
 
 author:
-  avatar: "https://github.com/iyempissy/iyempissy.github.io/blob/main/assets/media/icon.png"
+  avatar: "https://raw.githubusercontent.com/iyempissy/iyempissy.github.io/main/assets/media/icon.png"
   name: "Iyiola Emmanuel Olatunji"
   bio: "Postdoctoral Researcher. Secure code generation, LLM-based software engineering and security, Privacy, and graph neural networks."
   location: "Luxembourg"
