@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Iyiola Emmanuel Olatunji"
+# title: "Iyiola Emmanuel Olatunji"
 author_profile: true
 redirect_from:
   - /about/
