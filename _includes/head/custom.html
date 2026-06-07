@@ -8,4 +8,29 @@
   .greedy-nav .visible-links .masthead__menu-item.selected a:hover::before {
     transform: scaleX(0) !important;
   }
+
+  .author__urls a[href*="scholar.google"] i,
+  .author__urls a[href*="linkedin.com/in/"] i,
+  .author__urls a[href*="linkedin.com/"] i {
+    display: none !important;
+  }
+
+  .author__urls a[href*="scholar.google"]::before {
+    content: "\f19d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    display: inline-block;
+    width: 1.25em;
+    margin-right: 0.35em;
+  }
+
+  .author__urls a[href*="linkedin.com/in/"]::before,
+  .author__urls a[href*="linkedin.com/"]::before {
+    content: "\f08c";
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    display: inline-block;
+    width: 1.25em;
+    margin-right: 0.35em;
+  }
 </style>
