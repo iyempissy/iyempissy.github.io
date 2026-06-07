@@ -9,7 +9,6 @@ redirect_from:
 
 
 I am a Postdoctoral Researcher in the [TruX research group at SnT, University of Luxembourg](https://www.uni.lu/snt-en/research-groups/trux/), working with [Tegawendé Bissyande](https://bissyande.github.io/) and [Jacques Klein](https://jacquesklein2302.github.io/). My research focuses on the security, privacy, and reliability of AI systems.
-
 I work on secure code generation, LLM-based software engineering and security, and privacy-preserving machine learning. I study how AI systems can generate insecure code, leak sensitive information, or be manipulated through adversarial prompts, and I develop methods to evaluate and defend these systems more rigorously. My work also investigates privacy risks and defenses in graph neural networks, graph-aware LLMs, and differentially private learning systems.
 
 Previously, I worked with [Adam Dziedzic](https://adam-dziedzic.com/) and [Franziska Boenisch](https://franziska-boenisch.de/) at [CISPA](https://cispa.de/en). I obtained my PhD from Leibniz University Hannover under the supervision of [Wolfgang Nejdl](https://kbs.uni-hannover.de/~nejdl/) and [Megha Khosla](https://khosla.github.io/).

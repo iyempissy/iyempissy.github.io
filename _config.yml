@@ -1,25 +1,24 @@
 locale: "en-US"
 remote_theme: "academicpages/academicpages.github.io"
 site_theme: "default"
-title: "Olatunji Iyiola Emmanuel"
-title_separator: "-"
-name: &name "Olatunji Iyiola Emmanuel"
-description: &description "Academic website for Olatunji Iyiola Emmanuel, focusing on privacy, machine learning, and AI security."
+title: "Iyiola Emmanuel Olatunji"
+# title_separator: "-"
+name: &name "Iyiola Emmanuel Olatunji"
+description: &description "Iyiola Emmanuel Olatunji, focusing on LLM-based software engineering and security, privacy, machine learning, and AI security."
 url: "https://iyempissy.github.io"
 baseurl: ""
 repository: "iyempissy/iyempissy.github.io"
 
 author:
-  avatar: "https://iyempissy.github.io/media/avatar_hu3249633469473108215.jpg"
-  name: "Olatunji Iyiola Emmanuel"
-  bio: "Postdoctoral Researcher. Privacy, machine learning, graph neural networks, and large language models."
-  location: "Saarbrucken, Germany"
-  employer: "CISPA"
-  uri: "https://iyempissy.github.io"
-  email: "olatunji.emmanuel@cispa.de"
-  googlescholar: "https://scholar.google.co.uk/citations?user=nPIxx4UAAAAJ&hl=en"
-  github: "iyempissy"
+  avatar: "https://github.com/iyempissy/iyempissy.github.io/blob/main/assets/media/icon.png"
+  name: "Iyiola Emmanuel Olatunji"
+  bio: "Postdoctoral Researcher. Secure code generation, LLM-based software engineering and security, Privacy, and graph neural networks."
+  location: "Luxembourg"
+  employer: "Trux@SnT"
+  email: "emmanuel.olatunji@uni.lu"
   linkedin: "olatunjiiyem"
+  googlescholar: "https://scholar.google.com/citations?user=nPIxx4UAAAAJ&hl=en"
+  github: "iyempissy"
 
 publication_category:
   manuscripts:
@@ -52,7 +51,7 @@ og_image:
 og_description:
 social:
   type: Person
-  name: "Olatunji Iyiola Emmanuel"
+  name: "Iyiola Emmanuel Olatunji"
   links:
     - "https://github.com/iyempissy"
     - "https://hk.linkedin.com/in/olatunjiiyem"
