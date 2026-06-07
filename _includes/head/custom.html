@@ -1,9 +1,11 @@
 <style>
-  .masthead__menu-item.selected {
+  .masthead__menu-item.selected a,
+  .masthead__menu-item.selected a:hover {
     border-bottom: 0 !important;
   }
 
-  .masthead__menu-item.selected a {
-    text-decoration: none !important;
+  .greedy-nav .visible-links .masthead__menu-item.selected a::before,
+  .greedy-nav .visible-links .masthead__menu-item.selected a:hover::before {
+    transform: scaleX(0) !important;
   }
 </style>
