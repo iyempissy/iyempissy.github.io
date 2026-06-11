@@ -72,12 +72,39 @@ redirect_from:
 
   <section id="publications" class="exact-section">
     <h2>Publications</h2>
-    <p>For the full and most up-to-date list, see my <a href="https://scholar.google.com/citations?user=nPIxx4UAAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
-    <ul>
-      <li>Research on secure code generation, LLM-based software engineering, and safety evaluation.</li>
-      <li>Privacy and security work on graph neural networks, graph-aware language models, and differentially private learning.</li>
-      <li>Studies of trustworthy AI, robustness, and dependable machine learning behavior in high-risk settings.</li>
-    </ul>
-    <p><a href="/publications/">See the full publication list</a>.</p>
+    <p>For a full and up-to-date list, see my <a href="https://scholar.google.com/citations?user=nPIxx4UAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+    <div class="pub-group">
+      <div class="pub-label">Selected</div>
+      <div class="pub-items">
+        <article class="pub-item">
+          <h3 class="pub-title"><a href="/publications/">Secure code generation and LLM-based software engineering</a></h3>
+          <p class="pub-authors"><strong>Iyiola Emmanuel Olatunji</strong> and collaborators.</p>
+          <p class="pub-venue">Conference papers, journal articles, and evaluation studies on secure and trustworthy code generation.</p>
+        </article>
+
+        <article class="pub-item">
+          <h3 class="pub-title"><a href="/publications/">Privacy and security in graph learning systems</a></h3>
+          <p class="pub-authors"><strong>Iyiola Emmanuel Olatunji</strong> and collaborators.</p>
+          <p class="pub-venue">Research on privacy risks, defenses, and robustness for graph neural networks and graph-aware AI systems.</p>
+        </article>
+
+        <article class="pub-item">
+          <h3 class="pub-title"><a href="/publications/">Trustworthy AI evaluation under realistic threats</a></h3>
+          <p class="pub-authors"><strong>Iyiola Emmanuel Olatunji</strong> and collaborators.</p>
+          <p class="pub-venue">Methods and benchmarks for measuring reliability, privacy leakage, and adversarial failures in modern AI pipelines.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="pub-group">
+      <div class="pub-label">More</div>
+      <div class="pub-items pub-items-compact">
+        <article class="pub-item">
+          <h3 class="pub-title"><a href="/publications/">Complete publications archive</a></h3>
+          <p class="pub-venue">Browse the full list by category on the dedicated publications page.</p>
+        </article>
+      </div>
+    </div>
   </section>
 </div>
