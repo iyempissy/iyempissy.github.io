@@ -106,9 +106,13 @@
 
   .exact-hero {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 36px;
     margin: 0 auto 28px;
+  }
+
+  .exact-hero-media {
+    padding-top: 4px;
   }
 
   .exact-hero-media img {
@@ -126,32 +130,33 @@
   }
 
   .exact-hero-copy h1 {
-    margin: 0 0 6px;
+    margin: 0 0 4px;
     color: #222426;
     font-size: 30px;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.1;
     letter-spacing: -0.02em;
   }
 
   .exact-role-primary {
-    margin: 0 0 2px;
+    margin: 0 0 1px;
     color: #0a5f5e;
     font-size: 18px;
     font-weight: 600;
   }
 
   .exact-role-secondary {
-    margin: 0 0 8px;
+    margin: 0 0 6px;
     color: #555a5e;
     font-size: 15px;
   }
 
   .exact-tagline {
-    margin: 0 0 14px;
+    margin: 0 0 12px;
     color: #868d92;
     font-size: 14.5px;
     font-style: italic;
+    line-height: 1.45;
   }
 
   .exact-icon-links {
@@ -159,7 +164,7 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 14px;
-    margin: 14px 0 0;
+    margin: 12px 0 0;
   }
 
   .exact-icon-links a {
@@ -195,7 +200,7 @@
   }
 
   .exact-email {
-    margin: 12px 0 0;
+    margin: 10px 0 0;
     color: #555a5e;
     font-size: 15px;
   }
@@ -310,6 +315,10 @@
       flex-direction: column;
       text-align: center;
       gap: 20px;
+    }
+
+    .exact-hero-media {
+      padding-top: 0;
     }
 
     .exact-hero-copy {
