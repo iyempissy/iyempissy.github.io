@@ -1,113 +1,75 @@
 ---
 permalink: /
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="home-shell">
-  <section id="about" class="home-hero">
-    <p class="home-kicker">Postdoctoral Researcher</p>
-    <h1>Iyiola Emmanuel Olatunji</h1>
-    <p class="home-lead">I work on secure code generation, LLM-based software engineering and security, privacy-preserving machine learning, and trustworthy AI.</p>
-    <p class="home-summary">I am a Postdoctoral Researcher in the <a href="https://www.uni.lu/snt-en/research-groups/trux/">TruX research group at SnT, University of Luxembourg</a>, where I work with <a href="https://bissyande.github.io/">Tegawend&eacute; Bissyand&eacute;</a> and <a href="https://jacquesklein2302.github.io/">Jacques Klein</a>. My research studies how modern AI systems generate insecure code, leak sensitive information, and fail under adversarial or privacy-critical settings, with the goal of building more reliable and defensible systems.</p>
-    <div class="home-actions">
-      <a class="home-button primary" href="/cv/">View CV</a>
-      <a class="home-button" href="/publications/">Browse Publications</a>
-      <a class="home-button" href="mailto:emmanuel.olatunji@uni.lu">Email</a>
+<div class="exact-home">
+  <section id="about" class="exact-hero">
+    <div class="exact-hero-media">
+      <img src="/assets/media/icon.png" alt="Iyiola Emmanuel Olatunji" />
+    </div>
+    <div class="exact-hero-copy">
+      <h1>Iyiola Emmanuel Olatunji</h1>
+      <p class="exact-role-primary">Postdoctoral Researcher, University of Luxembourg</p>
+      <p class="exact-role-secondary">TruX Research Group, SnT</p>
+      <p class="exact-tagline">Secure and trustworthy AI for software engineering, privacy, and graph learning.</p>
+
+      <div class="exact-icon-links">
+        <a href="https://scholar.google.com/citations?user=nPIxx4UAAAAJ&amp;hl=en" aria-label="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+        <a href="https://github.com/iyempissy" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/olatunjiiyem" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="mailto:emmanuel.olatunji@uni.lu" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+        <a href="/cv/" class="exact-cv-link">CV</a>
+      </div>
+
+      <p class="exact-email">emmanuel [dot] olatunji [at] uni [dot] lu</p>
     </div>
   </section>
 
-  <section id="news" class="home-section">
-    <div class="section-heading">
-      <h2>News</h2>
-      <p>Recent updates and milestones.</p>
-    </div>
-    <ul class="home-list news-list">
+  <section class="exact-intro">
+    <p>I am a postdoctoral researcher in the <a href="https://www.uni.lu/snt-en/research-groups/trux/">TruX research group at SnT, University of Luxembourg</a>, where I work with <a href="https://bissyande.github.io/">Tegawend&eacute; Bissyand&eacute;</a> and <a href="https://jacquesklein2302.github.io/">Jacques Klein</a>. My research focuses on building secure, privacy-aware, and trustworthy AI systems, especially for code generation and software engineering.</p>
+    <p>I study how large language models generate insecure code, how they can leak sensitive information, and how they behave under adversarial or privacy-critical conditions. I also work on graph neural networks, graph-aware language models, and privacy-preserving machine learning systems where dependable behavior matters.</p>
+    <p>Previously, I worked with <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> and <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> at <a href="https://cispa.de/en">CISPA</a>. I obtained my PhD in Computer Science from Leibniz University Hannover under the supervision of <a href="https://kbs.uni-hannover.de/~nejdl/">Wolfgang Nejdl</a> and <a href="https://khosla.github.io/">Megha Khosla</a>.</p>
+  </section>
+
+  <section id="news" class="exact-section">
+    <h2>News</h2>
+    <ul>
       <li><strong>2025:</strong> Joined TruX@SnT, University of Luxembourg, as a Postdoctoral Researcher.</li>
       <li><strong>2024:</strong> Completed my PhD in Computer Science at Leibniz University Hannover.</li>
-      <li><strong>2024:</strong> Finished a postdoctoral research stay at CISPA, working with Adam Dziedzic and Franziska Boenisch.</li>
+      <li><strong>2024:</strong> Worked as a postdoctoral researcher at CISPA on privacy and security in modern AI systems.</li>
       <li><strong>2021:</strong> Received the Best Student Paper Award at IEEE Trust, Privacy and Security in Intelligent Systems and Applications.</li>
     </ul>
   </section>
 
-  <section id="research" class="home-section">
-    <div class="section-heading">
-      <h2>Research</h2>
-      <p>Core directions that shape my recent work.</p>
-    </div>
-    <div class="feature-grid">
-      <article class="feature-card">
-        <h3>Secure Code Generation</h3>
-        <p>I study how large language models generate insecure or policy-violating code, how those failures can be measured rigorously, and how we can design evaluation and defense pipelines that make code generation safer in practice.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Trustworthy LLM Systems</h3>
-        <p>My work examines the reliability of LLM-based software engineering systems under adversarial prompts, data leakage risks, and unsafe reasoning patterns, with an emphasis on realistic benchmarking and robust mitigation.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Privacy and Security in Machine Learning</h3>
-        <p>I investigate privacy leakage, privacy-preserving learning, and the security of modern machine learning pipelines, including settings where models handle sensitive graph-structured or relational data.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Graph Learning and AI Security</h3>
-        <p>I also work on graph neural networks, graph-aware LLMs, and related learning systems, especially where robustness, privacy, and dependable behavior matter for deployment.</p>
-      </article>
-    </div>
+  <section id="research" class="exact-section">
+    <h2>Research</h2>
+    <p>My research centers on trustworthy AI for software, language, and graph-based systems. I am particularly interested in settings where model failures create security, privacy, or reliability risks.</p>
+
+    <h3>Secure Code Generation and LLM Safety</h3>
+    <p>I investigate how language models generate insecure or policy-violating code, how these failures can be evaluated realistically, and how to build stronger defenses, benchmarks, and assessment pipelines for LLM-based software engineering tools.</p>
+
+    <h3>Privacy, Security, and Robust Machine Learning</h3>
+    <p>I study privacy leakage, adversarial behavior, and robustness in machine learning systems, including graph neural networks, graph-aware LLMs, and privacy-preserving learning methods for sensitive data.</p>
   </section>
 
-  <section id="publications" class="home-section">
-    <div class="section-heading">
-      <h2>Publications</h2>
-      <p>A few representative topics from my publication record.</p>
-    </div>
-    <div class="publication-list">
-      <article class="publication-item">
-        <h3>LLM Security and Software Engineering</h3>
-        <p>Research on secure code generation, benchmarking, and safety risks in LLM-based programming assistance.</p>
-      </article>
-      <article class="publication-item">
-        <h3>Privacy-Preserving and Robust Learning</h3>
-        <p>Work on privacy risks and defenses in machine learning, including graph neural networks and sensitive-data settings.</p>
-      </article>
-      <article class="publication-item">
-        <h3>Trustworthy AI Evaluation</h3>
-        <p>Methods for measuring reliability, security, and failure behavior in modern AI systems under realistic conditions.</p>
-      </article>
-    </div>
-    <p class="section-link-row">
-      <a class="home-button primary" href="/publications/">See Full Publication List</a>
-      <a class="home-button" href="https://scholar.google.com/citations?user=nPIxx4UAAAAJ&amp;hl=en">Google Scholar</a>
-    </p>
+  <section id="students" class="exact-section">
+    <h2>Students</h2>
+    <p>I am happy to hear from students and collaborators interested in secure code generation, LLM security, privacy-preserving machine learning, graph learning, and trustworthy AI evaluation.</p>
+    <p>If you would like to work with me, feel free to email me with a short description of your interests, your background, and any relevant materials such as a CV, transcript, or publication list.</p>
   </section>
 
-  <section id="background" class="home-section compact-section">
-    <div class="section-heading">
-      <h2>Background</h2>
-      <p>Training, positions, and selected recognition.</p>
-    </div>
-    <div class="two-column-grid">
-      <div>
-        <h3>Positions</h3>
-        <ul class="home-list">
-          <li>2025-present: Postdoctoral Researcher, TruX@SnT, University of Luxembourg</li>
-          <li>2024-2025: Postdoctoral Researcher, CISPA, Germany</li>
-          <li>2020-2024: Research Scientist, L3S Research Center, Germany</li>
-          <li>2016-2017: Research Associate, Hong Kong Baptist University, Hong Kong</li>
-          <li>2015-2016: Research Associate, Hong Kong Polytechnic University, Hong Kong</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Education and Awards</h3>
-        <ul class="home-list">
-          <li>PhD in Computer Science, Leibniz University Hannover, 2024</li>
-          <li>MPhil in Systems Engineering and Engineering Management, Chinese University of Hong Kong, 2020</li>
-          <li>MSc in Advanced Information Systems, Hong Kong Baptist University, 2015</li>
-          <li>Best Student Paper, IEEE TPS-ISA, 2021</li>
-          <li>Postgraduate Studentship Scholarship, Chinese University of Hong Kong, 2017-2019</li>
-        </ul>
-      </div>
-    </div>
+  <section id="publications" class="exact-section">
+    <h2>Publications</h2>
+    <p>For the full and most up-to-date list, see my <a href="https://scholar.google.com/citations?user=nPIxx4UAAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
+    <ul>
+      <li>Research on secure code generation, LLM-based software engineering, and safety evaluation.</li>
+      <li>Privacy and security work on graph neural networks, graph-aware language models, and differentially private learning.</li>
+      <li>Studies of trustworthy AI, robustness, and dependable machine learning behavior in high-risk settings.</li>
+    </ul>
+    <p><a href="/publications/">See the full publication list</a>.</p>
   </section>
 </div>
