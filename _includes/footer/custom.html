@@ -1,5 +1,24 @@
 <style>
   .page__footer {
+    display: block !important;
+    border-top: 1px solid #e6e8ea;
+    margin-top: 48px;
+    background: #ffffff;
+  }
+
+  .page__footer footer,
+  .page__footer .page__footer-copyright {
     display: none !important;
+  }
+
+  .page__footer::after {
+    content: "© 2026 Iyiola Emmanuel Olatunji";
+    display: block;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px;
+    color: #868d92;
+    font-size: 13.5px;
+    text-align: center;
   }
 </style>
