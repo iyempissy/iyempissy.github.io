@@ -49,11 +49,19 @@ redirect_from:
     <h2>Research</h2>
     <p>My research centers on trustworthy AI for software, language, and graph-based systems. I am particularly interested in settings where model failures create security, privacy, or reliability risks.</p>
 
-    <h3>Secure Code Generation and LLM Safety</h3>
-    <p>I investigate how language models generate insecure or policy-violating code, how these failures can be evaluated realistically, and how to build stronger defenses, benchmarks, and assessment pipelines for LLM-based software engineering tools.</p>
+    <div class="research-blocks">
+      <article class="research-card">
+        <h3>Secure Code Generation and LLM Safety</h3>
+        <p class="research-card-lead">Robust evaluation and defense for LLM-based software engineering.</p>
+        <p>I investigate how language models generate insecure or policy-violating code, how these failures can be evaluated realistically, and how to build stronger defenses, benchmarks, and assessment pipelines for programming assistants and code-generation systems.</p>
+      </article>
 
-    <h3>Privacy, Security, and Robust Machine Learning</h3>
-    <p>I study privacy leakage, adversarial behavior, and robustness in machine learning systems, including graph neural networks, graph-aware LLMs, and privacy-preserving learning methods for sensitive data.</p>
+      <article class="research-card">
+        <h3>Privacy, Security, and Graph Learning</h3>
+        <p class="research-card-lead">Reliable machine learning under privacy and adversarial pressure.</p>
+        <p>I study privacy leakage, adversarial behavior, and robustness in machine learning systems, including graph neural networks, graph-aware LLMs, and privacy-preserving learning methods for sensitive data.</p>
+      </article>
+    </div>
   </section>
 
   <section id="students" class="exact-section">
