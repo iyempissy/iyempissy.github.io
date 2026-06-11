@@ -1,0 +1,40 @@
+{% assign pubs = site.data.data.publications.papers %}
+{% if pubs %}
+<section class="section" id="publications">
+  <h2 class="section-title">Publications</h2>
+  <p class="section-note">For a full and up-to-date list, see my {% if site.data.data.profile.scholar %}<a href="{{ site.data.data.profile.scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% else %}Google Scholar{% endif %}.</p>
+
+  {% assign preprints = pubs | where: "preprint", true %}
+  {% if preprints.size > 0 %}
+  <div class="pub-year-group">
+    <div class="pub-year">Preprints</div>
+    <ol class="pub-list">
+      {% for paper in preprints %}
+      <li class="pub-item">
+        <span class="pub-title">{% if paper.link %}<a href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</span>
+        <span class="pub-authors">{{ paper.authors }}</span>
+        {% if paper.venue %}<span class="pub-venue">{{ paper.venue }} {{ paper.year }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
+
+  {% assign published = pubs | where_exp: "item", "item.preprint != true" %}
+  {% assign by_year = published | group_by: "year" | sort: "name" | reverse %}
+  {% for group in by_year %}
+  <div class="pub-year-group">
+    <div class="pub-year">{{ group.name }}</div>
+    <ol class="pub-list">
+      {% for paper in group.items %}
+      <li class="pub-item">
+        <span class="pub-title">{% if paper.link %}<a href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</span>
+        <span class="pub-authors">{{ paper.authors }}</span>
+        {% if paper.venue %}<span class="pub-venue">{{ paper.venue }} {{ paper.year }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
